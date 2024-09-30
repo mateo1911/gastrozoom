@@ -16,7 +16,7 @@ import BackButton from "@/components/BackButton.vue";
     <v-card variant="text" class="py-md-16 my-md-16">
       <v-row justify="center" align="center">
         <v-col cols="12" sm="10" md="4">
-          <v-img src="/about.svg" height="30rem" class="ma-8 custom-radius">
+          <v-img src="/about.svg" height="30rem" class="custom-radius">
             <template #placeholder>
               <v-icon class="fill-height w-100" size="4rem">mdi-image</v-icon>
             </template>
@@ -33,26 +33,28 @@ import BackButton from "@/components/BackButton.vue";
       </v-row>
     </v-card>
     <v-row justify="space-evenly" class="py-16">
-      <v-col cols="12" sm="10" md="4" lg="3">
+      <v-col cols="10" sm="8" md="4" lg="3">
         <v-card class="custom-shadow pb-4" rounded="xl">
-          <v-img src="" class="bg-grey-lighten-2 ma-4 custom-radius aspect-ratio">
+          <v-img src="/profile-1.jpg" class="bg-grey-lighten-2 ma-4 custom-radius aspect-ratio">
             <template #placeholder>
               <v-icon class="fill-height w-100" size="4rem">mdi-image</v-icon>
             </template>
           </v-img>
-          <v-card-title class="text-h6">Ime i prezime</v-card-title>
-          <v-card-text class="text-subtitle-1">Opis</v-card-text>
+          <v-card-title class="text-h6 mx-3">Mateo-Marino Pehar</v-card-title>
+          <v-card-text class="text-subtitle-1 mx-3">Rođen 12. veljače 2003. Živim u Čitluku. Student sam treće godine
+            informatike na FPMOZ-u u Mostaru.</v-card-text>
         </v-card>
       </v-col>
-      <v-col cols="12" sm="10" md="4" lg="3">
+      <v-col cols="10" sm="8" md="4" lg="3">
         <v-card class="custom-shadow pb-4" rounded="xl">
-          <v-img src="" class="bg-grey-lighten-2 ma-4 custom-radius aspect-ratio">
+          <v-img src="/profile-2.jpg" class="bg-grey-lighten-2 ma-4 custom-radius aspect-ratio">
             <template #placeholder>
               <v-icon class="fill-height w-100" size="4rem">mdi-image</v-icon>
             </template>
           </v-img>
-          <v-card-title class="text-h6">Ime i prezime</v-card-title>
-          <v-card-text class="text-subtitle-1">Opis</v-card-text>
+          <v-card-title class="text-h6 mx-3">Josip Pehar</v-card-title>
+          <v-card-text class="text-subtitle-1 mx-3">Rođen 23. rujna 2001. godine. Živim u Čitluku. Student sam treće godine
+            informatike na FPMOZ-u u Mostaru.</v-card-text>
         </v-card>
       </v-col>
     </v-row>
@@ -69,6 +71,6 @@ import BackButton from "@/components/BackButton.vue";
 }
 
 .aspect-ratio {
-  aspect-ratio: 4/3;
+  aspect-ratio: 1/1;
 }
 </style>
